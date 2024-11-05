@@ -33,9 +33,9 @@ public class GradingMaximum {
 		for (int i = 1; i < scores.length; i++) {
 			if (scores[i] > max)
 				max = scores[i];
-			    student=i;
+			    
 		}
-		System.out.println("maximum score is "+max+" this score belong to student "+student);
+		System.out.println("maximum score is "+max);
 		
 		
 		
