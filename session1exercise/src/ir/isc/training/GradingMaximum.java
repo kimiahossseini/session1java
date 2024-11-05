@@ -29,7 +29,6 @@ public class GradingMaximum {
 		}
 	public static void max(int[] scores) {
 		int max = scores[0];
-		int student=0;
 		for (int i = 1; i < scores.length; i++) {
 			if (scores[i] > max)
 				max = scores[i];
